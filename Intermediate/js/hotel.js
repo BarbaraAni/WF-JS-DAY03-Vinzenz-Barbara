@@ -23,6 +23,9 @@ function submit () {
 	ava3 = hotel3.availableNights - input;
 	console.log(ava1, ava2, ava3)
 
+	document.getElementById('outputa').innerHTML = hotel1.availableNights
+	document.getElementById('outputb').innerHTML = hotel2.availableNights
+	document.getElementById('outputc').innerHTML = hotel3.availableNights
 
 	function check(ava,output) {
 	
@@ -31,13 +34,15 @@ function submit () {
 			var text = document.createTextNode("I'll reserve");
 			document.getElementById(output).appendChild(btn).appendChild(text);
 		} else {
-			document.getElementById(output).innerHTML = "Hotel 1: Sorry, no free room for " + input + " nights."
+			var txt = document.createTextNode("Sorry, no room for " + input + " nights.");
+			document.getElementById(output).appendChild(txt);
 		}
 	}
-	check(ava1, "output1");
-	check(ava2, "output2");
-	check(ava3, "output3");
-}
+	check(ava1, "output1")
+	check(ava2, "output2")
+	check(ava3, "output3")
+
+	}
 /*
 	if (ava1 >= 0) {
 		var btn = document.createElement("Button");

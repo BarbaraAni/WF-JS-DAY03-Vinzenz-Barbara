@@ -1,0 +1,18 @@
+*{
+	text-align: center;
+}
+
+input {
+	font-size: 1.1em;
+}
+
+[id=output] {
+	font-size: 1.3em;
+	color: #E9F0FA;
+	background-color:  hotpink;
+}
+button {
+	border-radius: 10px;
+	font-size: 1.3em;
+	background-image: linear-gradient(#003580, #FFFFFF, #003580);
+}
