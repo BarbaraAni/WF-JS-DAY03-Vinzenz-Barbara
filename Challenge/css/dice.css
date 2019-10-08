@@ -1,3 +1,20 @@
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+header {
+  font-size: 5em;
+  text-align: center;
+  margin: 0 auto;
+}
 
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=dice.css.map */
