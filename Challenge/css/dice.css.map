@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,IAAK;EACD,MAAM,EAAE,KAAK;EACb,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;;AAE1B,MAAO;EACH,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,MAAM;;AAGlB,OAAQ;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY",
+"sources": ["dice.scss"],
 "names": [],
 "file": "dice.css"
 }
