@@ -12,4 +12,22 @@ header {
 section {
     display: flex;
     justify-content: space-around;
+    h1 {
+        font-size: 7vh;
+        filter: drop-shadow(.4em .4em red);
+        mix-blend-mode: difference;
+    }
+    button {
+        font-size: 5vh;
+    }
+    img {
+        width: 10vh;
+        height: auto;
+        border-radius: 5px; 
+        filter: drop-shadow(.4em .4em red);
+        mix-blend-mode: difference;
+    }
+    p {
+        font-size: 5vh;
+    }
 }
